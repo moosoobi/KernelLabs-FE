@@ -8,10 +8,6 @@
             "value": "application/wasm"
           },
           {
-            "key": "Content-Encoding",
-            "value": ""
-          },
-          {
             "key": "Cache-Control",
             "value": "no-cache"
           }
