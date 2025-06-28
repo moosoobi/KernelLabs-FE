@@ -8,8 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "vercel-build": "git lfs install && git lfs pull && npm run build",
-
+    "vercel-build": "git lfs install && git lfs pull && npm run build"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.81.2",
