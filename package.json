@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "vercel-build": "git lfs install && git lfs pull && npm run build",
+
   },
   "dependencies": {
     "@tanstack/react-query": "^5.81.2",
@@ -40,3 +42,4 @@
     "vite": "^7.0.0"
   }
 }
+
